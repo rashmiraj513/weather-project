@@ -1,3 +1,7 @@
+:root {
+    --mainColor: #212121;
+}
+
 html, body {
     height: 100%;
 }
