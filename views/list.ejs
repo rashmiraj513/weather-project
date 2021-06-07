@@ -18,7 +18,7 @@
     <body>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">The temperature in the city <%= cityName %> is <%= cityTemp %>°C.</h1>
+                <h1 class="display-4">The temperature in the city <em> <%= cityName[0].toUpperCase() + cityName.substring(1) %></em> is <%= cityTemp %>°C.</h1>
                 <p class="lead center">The weather description is <%= cityTempDescription %>.</p>
                 <form action="/" method="post" class="center">
                     <a href="/" class="btn btn-lg btn-outline-success">Check Again!</a>
